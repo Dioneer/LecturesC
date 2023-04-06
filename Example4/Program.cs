@@ -6,9 +6,8 @@ namespace Example4
 	{
 		static void Main()
 		{
-			float numberA = 12, nubmerB = 5;
-			short numberC;
-			numberC = Convert.ToInt16(Console.ReadLine());
+			float numberA = 12, nubmerB = 5, numberC;
+			numberC = float.Parse(Console.ReadLine());
 			Console.WriteLine(numberA / nubmerB);
 			Console.WriteLine(numberC);
 		}
