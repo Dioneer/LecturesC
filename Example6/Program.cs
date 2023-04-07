@@ -1,14 +1,23 @@
-﻿// See https://aka.ms/new-console-template for more information
-int a = 1;
-int b = 2;
-int c = 6;
-int e = 8;
+﻿using System;
 
-int max = a;
+namespace Example7
+{
+	class Program6
+	{
+		static void Main()
+		{
+			int a = 1;
+			int b = 2;
+			int c = 6;
+			int e = 8;
 
-if (b > max) max = b;
-if (c > max) max = c;
-if (e > max) max = e;
+			int max = a;
 
-Console.Write("max = ");
-Console.WriteLine(max);
+			if (b > max) max = b;
+			if (c > max) max = c;
+			if (e > max) max = e;
+
+			Console.Write($"max ={max}");
+		}
+	}
+}

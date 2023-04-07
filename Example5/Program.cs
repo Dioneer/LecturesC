@@ -15,14 +15,12 @@ namespace Exapmle5
 			}
 			else
 			{
-				Console.Write("Hello, ");
-				Console.WriteLine(username);
+				Console.WriteLine($"Hello, {username}");
 			}
-
+			Console.Write("Write a float number, use coma for separate: ");
 			float user_name = float.Parse(Console.ReadLine());
 			float result = user_name + 10f;
-			Console.WriteLine(result);
-			System.Console.WriteLine("easy cw");
+			System.Console.WriteLine($"Your number + 10 = {result}");
 		}
 	}
 
